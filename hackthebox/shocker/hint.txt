@@ -1,0 +1,3 @@
+shellshock
+bashbug
+bashdoor

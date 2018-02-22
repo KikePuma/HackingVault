@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Wed Feb  7 18:16:08 2018 as: nmap -p- -T5 -oA nmap/full-ports -vv 10.10.10.75 -->
+<nmaprun scanner="nmap" args="nmap -p- -T5 -oA nmap/full-ports -vv 10.10.10.75" start="1518045368" startstr="Wed Feb  7 18:16:08 2018" version="7.60" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1518045368"/>
+<taskend task="Ping Scan" time="1518045368" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1518045368"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1518045368"/>
+<taskbegin task="SYN Stealth Scan" time="1518045368"/>
+<taskprogress task="SYN Stealth Scan" time="1518045399" percent="25.84" remaining="89" etc="1518045488"/>
+<taskprogress task="SYN Stealth Scan" time="1518045429" percent="50.82" remaining="60" etc="1518045488"/>
+<taskprogress task="SYN Stealth Scan" time="1518045459" percent="74.64" remaining="31" etc="1518045490"/>
+<taskend task="SYN Stealth Scan" time="1518045494" extrainfo="65535 total ports"/>
+<host starttime="1518045368" endtime="1518045494"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.75" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="resets" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="57902" rttvar="3575" to="72202"/>
+</host>
+<runstats><finished time="1518045494" timestr="Wed Feb  7 18:18:14 2018" elapsed="126.30" summary="Nmap done at Wed Feb  7 18:18:14 2018; 1 IP address (1 host up) scanned in 126.30 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

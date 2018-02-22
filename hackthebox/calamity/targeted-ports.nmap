@@ -1,0 +1,21 @@
+# Nmap 7.60 scan initiated Sun Dec 31 10:58:50 2017 as: nmap -p22,80 -A -oN targeted-ports.nmap 10.10.10.27
+Nmap scan report for 10.10.10.27
+Host is up (0.084s latency).
+
+PORT   STATE    SERVICE VERSION
+22/tcp filtered ssh
+80/tcp open     http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Brotherhood Software
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.12 (95%), Linux 3.13 (95%), Linux 3.16 (95%), Linux 3.18 (95%), Linux 3.2 - 4.8 (95%), Linux 3.8 - 3.11 (95%), Linux 4.2 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.1 (93%), Linux 3.2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   60.32 ms 10.10.14.1
+2   60.39 ms 10.10.10.27
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec 31 10:59:06 2017 -- 1 IP address (1 host up) scanned in 16.79 seconds

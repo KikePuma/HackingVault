@@ -1,0 +1,13 @@
+# Nmap 7.60 scan initiated Wed Feb  7 18:16:08 2018 as: nmap -p- -T5 -oA nmap/full-ports -vv 10.10.10.75
+Warning: 10.10.10.75 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.10.75
+Host is up, received echo-reply ttl 63 (0.058s latency).
+Scanned at 2018-02-07 18:16:08 EST for 126s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 63
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Feb  7 18:18:14 2018 -- 1 IP address (1 host up) scanned in 126.30 seconds

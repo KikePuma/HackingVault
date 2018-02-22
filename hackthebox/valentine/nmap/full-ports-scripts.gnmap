@@ -1,0 +1,5 @@
+# Nmap 7.60 scan initiated Sun Feb 18 14:26:46 2018 as: nmap -sV -sC -p- -oA full-ports-scripts -vv valentine.htb
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.79 (valentine.htb)	Status: Up
+Host: 10.10.10.79 (valentine.htb)	Ports: 22/open/tcp//ssh//OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.22 ((Ubuntu))/, 443/open/tcp//ssl|ssl//Apache httpd (SSL-only mode)/	Ignored State: closed (65532)
+# Nmap done at Sun Feb 18 14:34:48 2018 -- 1 IP address (1 host up) scanned in 482.38 seconds

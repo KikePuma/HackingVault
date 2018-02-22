@@ -1,0 +1,13 @@
+# Nmap 7.60 scan initiated Sun Dec 31 14:15:15 2017 as: nmap -p- -oN full-ports.nmap -vv 10.10.10.68
+Nmap scan report for 10.10.10.68
+Host is up, received reset ttl 63 (0.067s latency).
+Scanned at 2017-12-31 14:15:15 EST for 71s
+Not shown: 65532 closed ports
+Reason: 65532 resets
+PORT     STATE SERVICE REASON
+80/tcp   open  http    syn-ack ttl 63
+5555/tcp open  freeciv syn-ack ttl 63
+9999/tcp open  abyss   syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec 31 14:16:26 2017 -- 1 IP address (1 host up) scanned in 71.42 seconds

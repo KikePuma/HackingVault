@@ -1,0 +1,21 @@
+# Nmap 7.60 scan initiated Sun Feb 18 16:49:13 2018 as: nmap --script ssl-heartbleed -oA heartbleed valentine.htb
+Nmap scan report for valentine.htb (10.10.10.79)
+Host is up (0.087s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+| ssl-heartbleed: 
+|   VULNERABLE:
+|   The Heartbleed Bug is a serious vulnerability in the popular OpenSSL cryptographic software library. It allows for stealing information intended to be protected by SSL/TLS encryption.
+|     State: VULNERABLE
+|     Risk factor: High
+|       OpenSSL versions 1.0.1 and 1.0.2-beta releases (including 1.0.1f and 1.0.2-beta1) of OpenSSL are affected by the Heartbleed bug. The bug allows for reading memory of systems protected by the vulnerable OpenSSL versions and could allow for disclosure of otherwise encrypted confidential information as well as the encryption keys themselves.
+|           
+|     References:
+|       http://www.openssl.org/news/secadv_20140407.txt 
+|       http://cvedetails.com/cve/2014-0160/
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160
+
+# Nmap done at Sun Feb 18 16:49:44 2018 -- 1 IP address (1 host up) scanned in 30.24 seconds

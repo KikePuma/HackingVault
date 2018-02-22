@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sun Feb 18 16:49:13 2018 as: nmap --script ssl-heartbleed -oA heartbleed valentine.htb
+Host: 10.10.10.79 (valentine.htb)	Status: Up
+Host: 10.10.10.79 (valentine.htb)	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: closed (997)
+# Nmap done at Sun Feb 18 16:49:44 2018 -- 1 IP address (1 host up) scanned in 30.24 seconds

@@ -1,0 +1,7 @@
+# Nmap 7.60 scan initiated Wed Feb  7 18:14:04 2018 as: nmap -PU -F -T5 -vv -Pn -oA nmap/full-ports 10.10.10.74
+Nmap scan report for 10.10.10.74
+Host is up, received user-set.
+All 100 scanned ports on 10.10.10.74 are filtered because of 100 no-responses
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Feb  7 18:14:11 2018 -- 1 IP address (1 host up) scanned in 6.18 seconds
